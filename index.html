@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ananya Bhat | UI/UX Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+    <div class="logo">Ananya Bhat</div>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-buttons">
+        <button id="themeToggle">🌙</button>
+        <a href="resume.pdf" download class="resume-btn">Download Resume</a>
+    </div>
+</nav>
+
+<header>
+    <h1>UI/UX Designer</h1>
+    <p>Designing intuitive and user-centered digital experiences</p>
+</header>
+
+<section id="about" class="section fade">
+    <h2>About Me</h2>
+    <p>
+        UI/UX-focused Computer Science and Design student passionate about
+        research-driven, accessible and user-centered digital solutions.
+    </p>
+</section>
+
+<section id="projects" class="section fade">
+    <h2>Projects</h2>
+    <div class="project-grid">
+
+        <div class="project-card">
+            <h3>AI Interview Coach</h3>
+            <button onclick="openModal()">View Details</button>
+        </div>
+
+        <div class="project-card">
+            <h3>Student Productivity App</h3>
+            <button onclick="openModal()">View Details</button>
+        </div>
+
+    </div>
+</section>
+
+<section id="skills" class="section fade">
+    <h2>Skills</h2>
+    <p>User Research, Wireframing, Prototyping, Figma, Interaction Design</p>
+</section>
+
+<section id="contact" class="section fade">
+    <h2>Contact</h2>
+    <p>Email: ananyabhat377@gmail.com</p>
+</section>
+
+<footer>
+    © 2026 Ananya Bhat
+</footer>
+
+<!-- Modal -->
+<div id="projectModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h2>Project Details</h2>
+        <p>
+            AI Interview Coach – Developed an AI-powered assistant that simulates
+            interviews and provides structured keyword-based feedback.
+        </p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
